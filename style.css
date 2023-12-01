@@ -1,0 +1,163 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+	color:#FFFFFF;
+	text-transform:uppercase;
+}
+
+nav a.active {
+	color:#FFFFFF;
+}
+
+nav a:hover {
+	color:#FFFFFF;
+}
+
+.row {
+	margin: 120px;
+	color: white;
+	text-align: center;
+}
+
+.fonts-size {
+	font-size: 20px;
+	font-family: 'courier new', sans-serif;
+}
+
+.fonts-family {
+	font-family: 'impact', sans-serif;
+	color: white;
+	text-align: center;
+	margin: 20px;
+	font-size: 30px;
+	margin-top: 280px;
+}
+
+.images {
+	display: flex;
+	width: 100%;
+	transition: 2s;
+	margin: -100px;
+}
+
+.images {
+	width: 100%;
+}
+
+.wrapper {
+	width: 850px;
+	margin: auto;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+
+#slide-1:target ~ .images {
+	margin-left: 0px;
+}
+
+#slide-2:target ~ .images {
+	margin-left: -99%;
+}
+
+#slide-3:target ~ .images {
+	margin-left: -198%;
+}
+
+#slide-4:target ~ .images {
+	margin-left: -300%;
+}
+
+.navigation a {
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	background-color: #dedede;
+	font-size: 0px;
+	border-radius: 50%;
+	margin: 3px;
+	transition: 1s;
+}
+
+.navigation a:hover {
+	background-color: #666;
+}
+
+.navigation {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-top: -50px;
+}
+
+@media screen and (max-width: 800px) {
+	.wrapper {
+		width: 90%;
+	}
+}
+
+.gambar {
+	display: flex;
+	justify-content: center;
+	margin: -150px;
+}
+
+.fontssss {
+	font-family: 'impact', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	margin: 70px;
+}
+
+.Logo {
+	margin-top: 85px;
+}
+
+h4 {
+	font-family: 'impact', sans-serif;
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	margin: -25px;
+}
+
+.ch2 {
+	font-family: 'impact', sans-serif;
+	color: white;
+	font-size: 18px;
+	margin: -25px;
+}
+
+.ch3 {
+	font-family: 'impact', sans-serif;
+	color: #959494;
+	font-size: 18px;
+	margin: 30px;
+}
+
+.ch4 {
+	font-family: 'impact', sans-serif;
+	color: white;
+	font-size: 18px;
+	margin-bottom: -15px;
+}
+
+.garis{
+	border: solid 2px;
+	color:white;
+	height: 4px;
+}
+
+.last {
+	font-family: 'impact', sans-serif;
+	color: #C3C3C3;
+	font-size: 11px;
+	margin: 25px;
+	padding-left: -20px;
+}
